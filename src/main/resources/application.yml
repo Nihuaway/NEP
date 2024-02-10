@@ -1,0 +1,18 @@
+defaults:
+  firstUser:
+    username: mainer
+    password: root1234
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/topazdb
+    username: mainer
+    password: root1234
+  jmx:
+    enabled: false
+jpa:
+  show-sql: false
+
+app:
+  db.init.enabled: false
